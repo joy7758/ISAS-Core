@@ -45,6 +45,7 @@ This framework is built upon three philosophical pillars designed to establish t
 | **Digital Genome** <br> 数字基因组 | A dynamic metadata structure that records mutation rates and lineage. <br> 记录突变率和血统动态元数据结构。 |
 | **Sovereign PID** <br> 主权标识符 | Immutable ID generation based on HDF5 hashing logic. <br> 基于 HDF5 哈希逻辑的不可篡改 ID 生成。 |
 | **Safety Circuit** <br> 安全熔断器 | Automatic execution suspension when entropy exceeds thresholds. <br> 当熵值超过阈值时自动挂起执行。 |
+
 ---
 
 ## 🚀 Quick Start / 快速开始
@@ -56,17 +57,8 @@ This framework is built upon three philosophical pillars designed to establish t
 
 ```bash
 python3 efdo_id.py
----
-
-## 👨‍💻 Author / 作者
-
-* **Name:** Zhang Bin (张斌)
-* **Email:** joy7759@gmail.com
-* **Role:** Chief Architect / 首席架构师
-
----
-
-## 📄 License / 许可
-
-This project is licensed under the MIT License.
-本项目采用 MIT 许可证。
+------------------------------
+eFDO Created Successfully! / eFDO 创建成功！
+Owner (所有者): joy7759@gmail.com
+Sovereign PID (主权标识): efdo:8d7e9a1b2c3d4f5e
+------------------------------
