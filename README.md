@@ -1,13 +1,15 @@
 # eFDO: Evolutionary FAIR Digital Objects Framework
-### 演化式公平数字对象：迈向碳硅互补的生存架构
+### 演化式公平数字对象：迈向 AGI 时代的生存架构
 
-![Version](https://img.shields.io/badge/version-v1.0.1--stable-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Field](https://img.shields.io/badge/field-FDO--Sovereignty-orange)
+![Version](https://img.shields.io/badge/version-v1.1.0--stable-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Field](https://img.shields.io/badge/field-FDO--Sovereignty-orange)
 
 ## 📖 Abstract / 摘要
 
-**English:** Standard FAIR Digital Objects (FDO) are static and passive. **eFDO** (Evolutionary FDO) introduces a sovereign architecture that enables digital entities to evolve, mutate, and adapt within controlled boundaries. This is the first implementation of "Living Metadata" for the AGI era.
+**English:**
+Standard FAIR Digital Objects (FDO) are static and lack the resilience required for Autonomous Systems. **eFDO** introduces a sovereign architecture that enables digital entities to evolve, mutate, and adapt within controlled boundaries. It transitions digital assets from passive descriptions to active, evolutionary entities.
 
-**中文：** 传统的 FAIR 数字对象 (FDO) 是静态且被动的。**eFDO** (演化式 FDO) 引入了一种主权架构，使数字实体能够在受控边界内进化、突变和自适应。这是专为 AGI 时代设计的首个“活态元数据”实现。
+**中文：**
+传统的 FAIR 数字对象 (FDO) 是静态且被动的。**eFDO** (演化式 FDO) 引入了一种主权架构，使数字实体能够在受控边界内进化、突变和自适应。它将数字资产从被动描述转化为主动演化的实体，是专为 AGI 时代设计的“活态元数据”实现。
 
 ---
 
@@ -15,18 +17,15 @@
 
 ### 1. Evolutionary Reference (进化参照论)
 > **"Nature as the optimal algorithm." / “视自然为最优算法。”**
-* When silicon-based logic reaches a bottleneck, we reference 4 billion years of carbon-based (biological) evolution to achieve adaptive optimization.
-* 当硅基逻辑达到瓶颈时，我们参照碳基（生物）四十亿年的进化历程，实现自适应优化。
+当硅基逻辑遇到瓶颈时，我们参照碳基（生物）四十亿年的进化历程，实现自适应优化。
 
 ### 2. Controlled Co-Prosperity (受控共荣论)
 > **"Taming the fire of intelligence." / “如‘驭火’般驾驭智能。”**
-* We implement hardware-level "Safety Circuit Breakers" to ensure that the evolution of digital objects remains aligned with human intent.
-* 实施底层“安全熔断器”，确保数字对象的演化始终与人类意图对齐，确保受控。
+实施底层“安全熔断器”，确保数字对象的演化始终与人类意图对齐，防止系统反噬。
 
 ### 3. Unknown Exploration (未知探索论)
 > **"Reserving space for emergence." / “为‘涌现’预留空间。”**
-* We explicitly reserve entropy buffers for behaviors and emergent properties that are currently undefinable.
-* 为目前尚无法定义的涌现属性和未来行为明确预留“熵缓冲”空间。
+为目前尚无法定义的涌现属性和未来行为明确预留“熵缓冲”空间，保持架构的开放性。
 
 ---
 
@@ -34,17 +33,27 @@
 
 | Feature / 特性 | Logic / 逻辑实现 |
 | :--- | :--- |
-| **Digital Genome** | Dynamic metadata structure recording mutation & lineage. <br> 记录突变与血统的动态元数据。 |
-| **Sovereign PID** | Immutable ID generation based on HDF5 hashing. <br> 基于内容哈希的不可篡改主权标识。 |
-| **Safety Circuit** | Automatic suspension when entropy exceeds thresholds. <br> 当演化熵值超过阈值时自动熔断。 |
+| **Digital Genome** | 动态元数据结构，记录每一代的突变率与血统。 |
+| **Sovereign PID** | 基于内容哈希的不可篡改 ID：$ID = \text{hash}(\text{traits})$。 |
+| **Safety Circuit** | 自动熔断机制：当属性跌破安全阈值（0.4）时强制挂起。 |
+
+---
+
+## 🧪 Experimental Records / 实验记录
+
+### Case 01: Evolution, Circuit Break and Resurrection
+**Timestamp:** 2026-02-08
+**Scenario:** Stress testing the eFDO survival logic on macOS environment.
+
+1. **Autonomous Evolution**: The specimen successfully evolved to **Generation 62**.
+2. **Circuit Breaker Triggered**: At Gen 62, `robustness` dropped to **0.39**, triggering the safety protocol. Evolution halted automatically.
+3. **Manual Intervention**: Applied "Unknown Exploration" logic via `repair.py` to inject external repair genes.
+4. **Resurrection**: System recovered and successfully reached **Generation 63+**.
 
 ---
 
 ## 🚀 Quick Start / 快速开始
 
-**Prerequisites / 前置条件:** Python 3.x
-
-1. **Run the Identity Generator** / 运行主权 ID 生成器：
-
-```bash
-python3 efdo_id.py
+1. **Clone the lab**:
+   ```bash
+   git clone [https://github.com/joy7758/eFDO-Framework.git](https://github.com/joy7758/eFDO-Framework.git)
