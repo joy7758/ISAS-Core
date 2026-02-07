@@ -45,7 +45,17 @@ This framework is built upon three philosophical pillars designed to establish t
 | **Digital Genome** <br> 数字基因组 | A dynamic metadata structure that records mutation rates and lineage. <br> 记录突变率和血统动态元数据结构。 |
 | **Sovereign PID** <br> 主权标识符 | Immutable ID generation based on HDF5 hashing logic. <br> 基于 HDF5 哈希逻辑的不可篡改 ID 生成。 |
 | **Safety Circuit** <br> 安全熔断器 | Automatic execution suspension when entropy exceeds thresholds. <br> 当熵值超过阈值时自动挂起执行。 |
+---
 
+## 🚀 Quick Start / 快速开始
+
+**Prerequisites / 前置条件:** Python 3.x
+
+1. **Clone or Download** this repository. / 下载本项目。
+2. **Run the Generator** in your terminal: / 在终端运行生成器：
+
+```bash
+python3 efdo_id.py
 ---
 
 ## 👨‍💻 Author / 作者
