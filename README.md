@@ -40,7 +40,7 @@ Standard FAIR Digital Objects (FDO) are static and lack the resilience required 
 | Feature / 特性 | Logic / 逻辑实现 |
 | :--- | :--- |
 | **Digital Genome** | 动态元数据结构，记录每一代的突变率与血统。 |
-| **Sovereign PID** | 基于内容哈希的不可篡改 ID：$ID = \text{hash}(\text{traits})$。 |
+| **Sovereign PID** | 基于内容哈希的不可篡改 ID。 |
 | **Safety Circuit** | 自动熔断机制：当属性跌破安全阈值（0.4）时强制挂起。 |
 
 ---
@@ -57,5 +57,26 @@ Standard FAIR Digital Objects (FDO) are static and lack the resilience required 
 ## 🚀 Quick Start / 快速开始
 
 1. **Clone the lab**:
-   ```bash
-   git clone [https://github.com/joy7758/eFDO-Framework.git](https://github.com/joy7758/eFDO-Framework.git)
+   git clone https://github.com/joy7758/eFDO-Framework.git
+
+2. **Run Evolution Engine**:
+   python3 evolve.py
+
+3. **Launch Live Monitor**:
+   python3 monitor_v2.py
+
+---
+
+## 👨‍💻 Author / 作者
+
+* **Name:** Zhang Bin (张斌)
+* **Role:** Chief Architect / 首席架构师
+* **Focus:** FDO Technical Sovereignty, Evolutionary Metadata
+* **Email:** joy7759@gmail.com
+* **GitHub:** [joy7758](https://github.com/joy7758)
+
+---
+
+## 📄 License / 许可
+
+This project is licensed under the **GNU GPL v3.0 License**.
