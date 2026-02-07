@@ -80,3 +80,16 @@ Standard FAIR Digital Objects (FDO) are static and lack the resilience required 
 ## 📄 License / 许可
 
 This project is licensed under the **GNU GPL v3.0 License**.
+
+---
+
+## 🗺️ eFDO 2026 Developer Roadmap
+* [x] **Q1**: Foundation & Sovereignty (Chained Evolution & GPL-3.0)
+* [ ] **Q2**: Decentralized Persistence (IPFS/DID Anchoring)
+* [ ] **Q3**: Industrial K-FDO (ROS2/MoveIt Integration)
+* [ ] **Q4**: Commercial Ecosystem (EIS-2026 Insurance Standard)
+
+## 🤝 Join the Sovereignty
+* **Academic**: Establishing FDO technical sovereignty.
+* **Industrial**: Insurable data for autonomous systems.
+* **Contact**: joy7759@gmail.com
