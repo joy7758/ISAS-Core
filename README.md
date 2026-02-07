@@ -1,95 +1,74 @@
-# eFDO: Evolutionary FAIR Digital Objects Framework
-### 演化式公平数字对象：迈向 AGI 时代的生存架构
+# EIS-2026: Industrial Sovereign Autonomy Standard
 
-<div align="center">
-  <img src="https://img.shields.io/badge/version-v1.1.0--stable-blue" />
-  <img src="https://img.shields.io/badge/license-GPL--3.0-red" />
-  <img src="https://img.shields.io/badge/field-FDO--Sovereignty-orange" />
-</div>
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![Standard: FDO](https://img.shields.io/badge/Standard-FDO%202.0-orange.svg)](https://fairdo.org)
+[![Status: Sovereign](https://img.shields.io/badge/Status-Sovereign-green.svg)]()
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/6edb21cd-0637-4502-85a0-9bee0ebac4d7" width="650px" />
-  <p align="center">
-    <b>Experimental Milestone: Gen 91 Autonomous Evolution & Circuit Breaker Triggered</b><br/>
-    <i>"A visual proof of Controlled Co-Prosperity within the eFDO Framework"</i>
-  </p>
-</div>
+> **The eFDO Framework**: A reference implementation for Kinetic FAIR Digital Objects (K-FDO) with self-sovereign identity, decentralized anchoring, and state-based commercial licensing.
 
 ---
 
-## 📖 Abstract / 摘要
+## 🏗 System Architecture (架构全景)
 
-**English:**
-Standard FAIR Digital Objects (FDO) are static and lack the resilience required for Autonomous Systems. **eFDO** introduces a sovereign architecture that enables digital entities to evolve, mutate, and adapt within controlled boundaries.
+The EIS-2026 standard defines a closed-loop ecosystem for industrial assets:
 
-**中文：**
-传统的 FAIR 数字对象 (FDO) 是静态且被动的。**eFDO** (演化式 FDO) 引入了一种主权架构，使数字实体能够在受控边界内进化、突变和自适应，是专为 AGI 时代设计的“活态元数据”实现。
+1.  **Identity Layer (`did_generator.py`)**
+    - **Standard**: W3C DID (Decentralized Identifiers).
+    - **Mechanism**: Generates immutable `did:efdo:uuid` based on `Ed25519` cryptographic keys.
 
----
+2.  **Kinetic Layer (`robot_adapter.py`)**
+    - **Telemetry**: Real-time injection of Torque (Nm) and Temperature (°C).
+    - **Safety**: Implements a "Physical Circuit Breaker" that triggers `CRITICAL_HALT`.
 
-## 🏛 Core Principles / 三大生存原则
+3.  **Storage Layer (`ipfs_anchor.py`)**
+    - **Anchoring**: Periodic state snapshots are hashed (CID) and pinned to the **IPFS** network.
 
-1. **Evolutionary Reference (进化参照论)**: Nature as the optimal algorithm. / 视自然为最优算法。
-2. **Controlled Co-Prosperity (受控共荣论)**: Safety through circuit breakers. / 通过底层熔断器确保安全。
-3. **Unknown Exploration (未知探索论)**: Reserving space for emergence. / 为目前尚无法定义的涌现属性预留空间。
-
----
-
-## 🛠 Architecture Features / 架构特征
-
-| Feature / 特性 | Logic / 逻辑实现 |
-| :--- | :--- |
-| **Digital Genome** | 动态元数据结构，记录每一代的突变率与血统。 |
-| **Sovereign PID** | 基于内容哈希的不可篡改 ID。 |
-| **Safety Circuit** | 自动熔断机制：当属性跌破安全阈值（0.4）时强制挂起。 |
+4.  **Commercial Layer (`license_vault.py`)**
+    - **Dynamic Licensing**: Automatically manages **GPL-3.0** compliance.
+    - **Rule**: If `Fatigue_Index > 95%`, the API Token is revoked.
 
 ---
 
-## 🧪 Experimental Records / 实验记录
+## 📐 Mathematical Model (核心算法)
 
-### Case 01: Evolution and Circuit Break
-* **Observation**: The specimen successfully evolved to **Generation 91**.
-* **Circuit Breaker**: Triggered at Gen 91 due to `speed` dropping to **0.39**.
-* **Status**: System successfully locked to prevent data entropy.
+The value of an eFDO asset is dynamically calculated based on its kinetic health:
 
----
+$$V_{kinetic} = V_{base} \times (1 - \text{Fatigue\_Index}) \times \alpha$$
 
-## 🚀 Quick Start / 快速开始
-
-1. **Clone the lab**:
-   git clone https://github.com/joy7758/eFDO-Framework.git
-
-2. **Run Evolution Engine**:
-   python3 evolve.py
-
-3. **Launch Live Monitor**:
-   python3 monitor_v2.py
+Where:
+- $\text{Fatigue\_Index} = f(\text{Torque}, \text{Temp})$
+- $\alpha$: Sovereign Coefficient (1.0 for valid license, 0.0 for revoked).
 
 ---
 
-## 👨‍💻 Author / 作者
+## 🚀 Quick Start (一键部署)
 
-* **Name:** Zhang Bin (张斌)
-* **Role:** Chief Architect / 首席架构师
-* **Focus:** FDO Technical Sovereignty, Evolutionary Metadata
-* **Email:** joy7759@gmail.com
-* **GitHub:** [joy7758](https://github.com/joy7758)
+Initialize the sovereign node and start the lifecycle:
+
+1.  **Start the Sovereign Monitor** (Web Dashboard)
+    ```bash
+    python3 live_monitor.py
+    # Access: http://localhost:8000/dashboard.html
+    ```
+
+2.  **Execute the Sovereign Publish Cycle** (In a new terminal)
+    ```bash
+    ./publish.sh
+    # Pipeline: Evolve -> Inject Data -> Anchor IPFS -> Update License
+    ```
 
 ---
 
-## 📄 License / 许可
+## 📜 Sovereign Licensing
 
-This project is licensed under the **GNU GPL v3.0 License**.
+This framework is protected under **GPL-3.0**. 
+
+**Commercial Protocol**:
+- **Status GREEN**: Asset is healthy. `ACCESS_TOKEN` is valid.
+- **Status RED**: Asset is fatigued (>95%). License is **REVOKED**.
 
 ---
 
-## 🗺️ eFDO 2026 Developer Roadmap
-* [x] **Q1**: Foundation & Sovereignty (Chained Evolution & GPL-3.0)
-* [ ] **Q2**: Decentralized Persistence (IPFS/DID Anchoring)
-* [ ] **Q3**: Industrial K-FDO (ROS2/MoveIt Integration)
-* [ ] **Q4**: Commercial Ecosystem (EIS-2026 Insurance Standard)
-
-## 🤝 Join the Sovereignty
-* **Academic**: Establishing FDO technical sovereignty.
-* **Industrial**: Insurable data for autonomous systems.
-* **Contact**: joy7759@gmail.com
+**Author**: Zhang Bin (FDO Architect)  
+**Contact**: joy7759@gmail.com  
+**Lab**: Sovereign Node 01
