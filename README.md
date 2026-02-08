@@ -44,8 +44,34 @@ $$V_{\mathrm{kinetic}} = V_{\mathrm{base}} \times (1 - \mathrm{Fatigue\_Index}) 
 
 Follow these steps to initialize the sovereign node.
 
-================================================
-[PHASE 01: TELEMETRY]执行实时遥测与监控：python3 live_monitor.py================================================
-[PHASE 02: PUBLISH]执行 FDO 主权发布周期：chmod +x publish.sh && ./publish.sh[WORKFLOW LOGIC]EVOLVE -> INJECT_DATA -> ANCHOR_IPFS -> UPDATE_LICENSE================================================
-[COMPLIANCE & LICENSING]PROTOCOL: GPL-3.0 LicenseSTATUS_GREEN: Health OK / Token ValidSTATUS_RED: Fatigue Index $> 95\%$ (License REVOKED)================================================
-[METADATA]ARCHITECT: Zhang Bin (FDO Specialist)CONTACT: joy7759@gmail.comNODE_ID: Mac-Mini-ZB (Sovereign Node 01)
+========================================================================
+[SYSTEM_OPERATIONAL_MANUAL] :: SOVEREIGN_NODE_01
+========================================================================
+
+PHASE 01: TELEMETRY
+------------------------------------------------------------------------
+执行实时遥测与监控服务：
+$ python3 live_monitor.py
+
+PHASE 02: PUBLISH_CYCLE
+------------------------------------------------------------------------
+执行 FDO 主权发布生命周期：
+$ chmod +x publish.sh && ./publish.sh
+
+[LOGIC_FLOW]
+EVOLVE -> INJECT_DATA -> ANCHOR_IPFS -> UPDATE_LICENSE
+
+========================================================================
+[COMPLIANCE & LICENSING]
+========================================================================
+- PROTOCOL     : GPL-3.0 License
+- STATUS_GREEN : Health Nominal / Token Valid
+- STATUS_RED   : Fatigue Index > 95% (LICENSE_REVOKED)
+
+========================================================================
+[NODE_METADATA]
+========================================================================
+- ARCHITECT : Zhang Bin (FDO Specialist)
+- CONTACT   : joy7759@gmail.com
+- IDENTITY  : Mac-Mini-ZB (Sovereign Node 01)
+========================================================================
