@@ -15,19 +15,19 @@
 The EIS-2026 standard defines a closed-loop ecosystem for industrial assets:
 
 ### Identity Layer (`did_generator.py`)
-- **Standard**: W3C DID (Decentralized Identifiers).
-- **Mechanism**: Generates immutable `did:efdo:uuid` based on `Ed25519` cryptographic keys.
+* **Standard**: W3C DID (Decentralized Identifiers).
+* **Mechanism**: Generates immutable `did:efdo:uuid` based on `Ed25519` cryptographic keys.
 
 ### Kinetic Layer (`robot_adapter.py`)
-- **Telemetry**: Real-time injection of Torque (Nm) and Temperature (°C).
-- **Safety**: Implements a "Physical Circuit Breaker" that triggers `CRITICAL_HALT`.
+* **Telemetry**: Real-time injection of Torque (Nm) and Temperature (°C).
+* **Safety**: Implements a "Physical Circuit Breaker" that triggers `CRITICAL_HALT`.
 
 ### Storage Layer (`ipfs_anchor.py`)
-- **Anchoring**: Periodic state snapshots are hashed (CID) and pinned to the **IPFS** network.
+* **Anchoring**: Periodic state snapshots are hashed (CID) and pinned to the **IPFS** network.
 
 ### Commercial Layer (`license_vault.py`)
-- **Dynamic Licensing**: Automatically manages **GPL-3.0** compliance.
-- **Rule**: If `Fatigue\_Index > 95%`, the API Token is revoked to enforce maintenance.
+* **Dynamic Licensing**: Automatically manages **GPL-3.0** compliance.
+* **Rule**: If `Fatigue\_Index > 95%`, the API Token is revoked.
 
 ---
 
@@ -35,11 +35,11 @@ The EIS-2026 standard defines a closed-loop ecosystem for industrial assets:
 
 The value of an eFDO asset is dynamically calculated based on its kinetic health:
 
-$$V_{kinetic} = V_{base} \times (1 - \text{Fatigue\_Index}) \times \alpha$$
+$$V_{\mathrm{kinetic}} = V_{\mathrm{base}} \times (1 - \mathrm{Fatigue\_Index}) \times \alpha$$
 
 Where:
-- $\text{Fatigue\_Index} = f(\text{Torque}, \text{Temp})$
-- $\alpha$: Sovereign Coefficient (1.0 for valid license, 0.0 for revoked).
+* $\mathrm{Fatigue\_Index} = f(\mathrm{Torque}, \mathrm{Temp})$
+* $\alpha$: Sovereign Coefficient (1.0 for valid license, 0.0 for revoked).
 
 ---
 
@@ -48,25 +48,6 @@ Where:
 Initialize the sovereign node and start the lifecycle:
 
 ### Step 1: Start the Sovereign Monitor
-Launch the real-time telemetry dashboard:
 ```bash
 python3 live_monitor.py
 # Access Dashboard: http://localhost:8000/dashboard.html
-Step 2: Execute the Sovereign Publish Cycle
-Trigger the industrial data injection pipeline:
-./publish.sh
-# Pipeline: Evolve -> Inject Data -> Anchor IPFS -> Update License
-📜 Sovereign Licensing
-This framework is protected under GPL-3.0.
-
-Commercial Protocol:
-
-Status GREEN: Asset is healthy. ACCESS_TOKEN is valid.
-
-Status RED: Asset is fatigued (>95%). License is REVOKED.
-
-Author: Zhang Bin (FDO Architect)
-
-Contact: joy7759@gmail.com
-
-Lab: Sovereign Node 01 (Mac-Mini-ZB)
