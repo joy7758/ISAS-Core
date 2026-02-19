@@ -78,3 +78,17 @@ chmod +x publish.sh && ./publish.sh
 - **ARCHITECT**: Zhang Bin (FDO Specialist)
 - **CONTACT**: joy7759@gmail.com
 - **IDENTITY**: Mac-Mini-ZB (Sovereign Node 01)
+
+---
+
+## Belongs to RedRock Constitution / 隶属于红岩宪章体系
+
+This repository is part of the RedRock Constitution architecture framework.
+
+Please start from the central governance hub:
+
+https://github.com/joy7758/RedRock-Constitution
+
+本仓库属于红岩宪章体系，请从总入口开始阅读与理解：
+
+https://github.com/joy7758/RedRock-Constitution
