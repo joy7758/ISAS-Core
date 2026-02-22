@@ -116,3 +116,36 @@ https://github.com/joy7758/RedRock-Constitution
 
 - `RR-ISAS` Onepager / 一页纸：`docs/onepager/RR-ISAS_ONEPAGER_CN_EN.md`
 - Hub / 总入口：https://github.com/joy7758/RedRock-Constitution
+
+<!-- ECOSYSTEM_LINKS_BEGIN -->
+## Ecosystem Links / 生态关系链接
+
+![quality-baseline](https://github.com/joy7758/ISAS-Core/actions/workflows/quality-baseline.yml/badge.svg)
+
+### CN
+- 总入口（宪章）：[RedRock-Constitution](https://github.com/joy7758/RedRock-Constitution)
+- 标准注册表：[STANDARDS_REGISTRY](https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/STANDARDS_REGISTRY.md#rr-isas)
+- 仓库总索引：[REPOS_INDEX_CN_EN](https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/REPOS_INDEX_CN_EN.md)
+- 全局生态图：[ECOSYSTEM_GRAPH_CN_EN](https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/ECOSYSTEM_GRAPH_CN_EN.md)
+- 机器可读元数据：[`machine-readable/repository.json`](machine-readable/repository.json)
+
+### EN
+- Governance hub: [RedRock-Constitution](https://github.com/joy7758/RedRock-Constitution)
+- Standards registry: [STANDARDS_REGISTRY](https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/STANDARDS_REGISTRY.md#rr-isas)
+- Repositories index: [REPOS_INDEX_CN_EN](https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/REPOS_INDEX_CN_EN.md)
+- Global ecosystem graph: [ECOSYSTEM_GRAPH_CN_EN](https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/ECOSYSTEM_GRAPH_CN_EN.md)
+- Machine-readable metadata: [`machine-readable/repository.json`](machine-readable/repository.json)
+
+### Related Repositories / 关联仓库
+- [AASP-Core](https://github.com/joy7758/AASP-Core)
+- [Kinetic-Robotics-FDO-Sovereignty](https://github.com/joy7758/Kinetic-Robotics-FDO-Sovereignty)
+- [pFDO-Specification](https://github.com/joy7758/pFDO-Specification)
+- [RedRock-Constitution](https://github.com/joy7758/RedRock-Constitution)
+
+### Search Keywords / 检索关键词
+`industrial-autonomy`, `did`, `ipfs`, `sovereignty`, `fdo`
+
+### Bilingual Project Abstract / 双语项目摘要
+- EN: Industrial sovereignty reference implementation, including identity, kinetics, and anchoring layers.
+- CN: 工业主权自治的参考实现，覆盖身份、动力学与锚定层。
+<!-- ECOSYSTEM_LINKS_END -->

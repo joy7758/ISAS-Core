@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "ISAS-Core"
+type: software
+authors:
+  - family-names: "Zhang"
+    given-names: "Bin"
+repository-code: "https://github.com/joy7758/ISAS-Core"
+url: "https://github.com/joy7758/ISAS-Core"
+abstract: "Industrial sovereignty reference implementation, including identity, kinetics, and anchoring layers."
+keywords:
+  - industrial-autonomy
+  - did
+  - ipfs
+  - sovereignty
+  - fdo
