@@ -1,6 +1,42 @@
 # EIS-2026: Industrial Sovereign Autonomy Standard
 # EIS-2026: 工业主权自治标准
 
+<!-- SEARCH_VISIBILITY_BEGIN -->
+## Discoverability Snapshot / 检索曝光摘要
+
+- Standard ID / 标准编号: `RR-ISAS`
+- Repository / 仓库名: `ISAS-Core`
+
+### EN Summary / 英文摘要
+Industrial sovereignty reference implementation, including identity, kinetics, and anchoring layers.
+
+### CN Summary / 中文摘要
+工业主权自治的参考实现，覆盖身份、动力学与锚定层。
+
+### SEO Keywords / 检索关键词
+`industrial-autonomy`, `did`, `ipfs`, `sovereignty`, `fdo`
+
+### Suggested Search Phrases (EN)
+- ISAS-Core RR-ISAS open standard
+- ISAS-Core industrial-autonomy did github
+- RR-ISAS industrial-autonomy reference implementation
+
+### 建议检索短语（中文）
+- ISAS-Core RR-ISAS 标准 规范
+- ISAS-Core industrial-autonomy did 仓库
+- RR-ISAS 参考实现 红岩 宪章
+
+### Quick Links / 快速入口
+- Governance Hub / 总入口: https://github.com/joy7758/RedRock-Constitution
+- Standards Registry / 标准注册表: https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/STANDARDS_REGISTRY.md#rr-isas
+- Repos Index / 仓库索引: https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/REPOS_INDEX_CN_EN.md
+- Ecosystem Graph / 生态关系图: https://github.com/joy7758/RedRock-Constitution/blob/main/docs/registry/ECOSYSTEM_GRAPH_CN_EN.md
+- Onepager / 一页纸: https://github.com/joy7758/ISAS-Core/blob/main/docs/onepager/RR-ISAS_ONEPAGER_CN_EN.md
+- Citation / 引用元数据: `CITATION.cff`
+- Security Policy / 安全策略: `SECURITY.md`
+- Machine-readable / 机器可读: `machine-readable/repository.json`
+<!-- SEARCH_VISIBILITY_END -->
+
 ## Bilingual Governance Notice
 
 ## Standard Domain Entry / 标准域入口

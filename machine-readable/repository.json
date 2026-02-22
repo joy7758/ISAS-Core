@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-02-22T14:59:54Z",
+  "generated_at": "2026-02-22T15:08:15+00:00",
   "repository": "ISAS-Core",
   "standard_id": "RR-ISAS",
   "status": "Draft",
@@ -44,5 +44,23 @@
       "url": "https://github.com/joy7758/RedRock-Constitution",
       "standard_id": "RR-CORE"
     }
-  ]
+  ],
+  "discoverability": {
+    "version": "1.0.0",
+    "readme_section": "Discoverability Snapshot / 检索曝光摘要",
+    "keywords_density_target": "5-10 high-signal keywords in top README section",
+    "search_phrases_en": [
+      "ISAS-Core RR-ISAS open standard",
+      "ISAS-Core industrial-autonomy did github",
+      "RR-ISAS industrial-autonomy reference implementation"
+    ],
+    "search_phrases_cn": [
+      "ISAS-Core RR-ISAS 标准 规范",
+      "ISAS-Core industrial-autonomy did 仓库",
+      "RR-ISAS 参考实现 红岩 宪章"
+    ],
+    "onepager": "https://github.com/joy7758/ISAS-Core/blob/main/docs/onepager/RR-ISAS_ONEPAGER_CN_EN.md",
+    "citation_file": "CITATION.cff",
+    "security_file": "SECURITY.md"
+  }
 }
