@@ -1,6 +1,11 @@
 # EIS-2026: Industrial Sovereign Autonomy Standard
 # EIS-2026: 工业主权自治标准
 
+> Legacy lineage repository.
+> Historical context for the earlier DPP / sovereignty / governance formation phase.
+> Not part of the current canonical five-layer verifiable autonomous systems stack.
+> Current canonical entry: [joy7758](https://github.com/joy7758) profile and [digital-biosphere-architecture](https://github.com/joy7758/digital-biosphere-architecture).
+
 <!-- SEARCH_VISIBILITY_BEGIN -->
 ## Discoverability Snapshot / 检索曝光摘要
 
@@ -78,6 +83,10 @@ Implementation of **W3C Decentralized Identifiers (DID)**. It generates immutabl
 
 ### 2. Kinetic Layer / 动力学层 (`robot_adapter.py`)
 The "Physical-Digital" bridge. It injects real-time industrial telemetry (Torque, Temperature) and maintains a **Physical Circuit Breaker** to trigger halts during anomalies.
+
+## Current relationship to the main line
+
+This repository is a predecessor from the industrial sovereignty reference-implementation phase. It remains useful as historical context for anchoring and lifecycle ideas, but it is not part of the current canonical five-layer stack.
 “物理-数字”桥梁。它注入实时工业遥测数据（扭矩、温度），并维护**物理断路器**以在异常期间触发停止。
 
 ### 3. Storage Layer / 存储层 (`ipfs_anchor.py`)
